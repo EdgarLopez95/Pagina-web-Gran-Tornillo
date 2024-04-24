@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(206, 206, 206);
+}
+
+.header {
+  .navbar {
+    .navbar-nav {
+        .nav-link.active{
+            color: yellow;
+        }
+    }
+  }
+}
