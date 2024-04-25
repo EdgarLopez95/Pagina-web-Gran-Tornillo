@@ -11984,13 +11984,13 @@ body {
 }
 
 .main-inicio .section-uno {
-  background-image: url(./banner-inicio.webp);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/css/scss/pages/banner-inicio.webp);
+  background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+  background-position: bottom; /* Alinea la imagen al centro del contenedor */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
 }
 .main-inicio .section-uno .container {
-  padding: 150px 0;
+  padding: 170px 0;
 }
 .main-inicio .section-uno .container .row .section-uno__info h1, .main-inicio .section-uno .container .row .section-uno__info .h1 {
   font-size: clamp(0.938rem, 0.771rem + 0.532vw, 1.25rem);
@@ -12014,4 +12014,10 @@ body {
 .main-inicio .section-uno .container .row .section-uno__info button:hover {
   transform: scale(1.04);
   border: solid 1px #22384b;
+}
+
+@media screen and (max-width: 576px) {
+  .main-inicio .section-uno .container {
+    padding: 110px 0;
+  }
 }/*# sourceMappingURL=styles.css.map */
