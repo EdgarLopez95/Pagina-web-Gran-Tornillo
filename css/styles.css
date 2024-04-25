@@ -11984,13 +11984,13 @@ body {
 }
 
 .main-inicio .section-uno {
-  background-image: url(../../../assets/images/banner-inicio.webp);
+  background-image: url(/assets/images/banner-inicio.webp);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 .main-inicio .section-uno .container {
-  padding: 200px 0;
+  padding: 150px 0;
 }
 .main-inicio .section-uno .container .row .section-uno__info h1, .main-inicio .section-uno .container .row .section-uno__info .h1 {
   font-size: clamp(0.938rem, 0.771rem + 0.532vw, 1.25rem);
