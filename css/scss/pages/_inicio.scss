@@ -1,6 +1,6 @@
 .main-inicio {
   .section-uno {
-    background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/css/scss/pages/banner-inicio.webp);
+    background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/banner-inicio.webp);
     background-size: cover; /* Hace que la imagen cubra todo el contenedor */
     background-position: bottom; /* Alinea la imagen al centro del contenedor */
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
@@ -8,7 +8,8 @@
       padding: 170px 0;
       .row {
         .section-uno__info {
-          h1 {
+          h1,
+          p {
             font-size: clamp(0.938rem, 0.771rem + 0.532vw, 1.25rem);
             color: white;
             font-weight: 600;
@@ -19,8 +20,6 @@
             font-weight: 800;
           }
           p {
-            font-size: clamp(0.938rem, 0.771rem + 0.532vw, 1.25rem);
-            color: white;
             font-weight: 500;
           }
           button {
@@ -30,6 +29,28 @@
               transform: scale(1.04);
               border: solid 1px $primary;
             }
+          }
+        }
+      }
+    }
+  }
+  .section-dos {
+    background-color: white;
+    .container {
+      padding: 50px 0;
+      .section-dos__info {
+        h3 {
+          font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+          font-weight: bold;
+          color: $primary;
+        }
+        .section-dos-cards {
+          border: solid 1px rgb(184, 184, 184);
+          border-radius: 10px;
+          h4 {
+            font-size: clamp(1.25rem, 1.084rem + 0.532vw, 1.563rem);
+            font-weight: bold;
+            color: $primary;
           }
         }
       }

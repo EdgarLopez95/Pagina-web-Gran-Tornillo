@@ -11970,6 +11970,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  color: #475764;
+  font-size: 16px;
+}
+
+p, h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  -webkit-hyphens: none;
+          hyphens: none;
+}
+
 .header .navbar .navbar-nav .nav-link {
   color: #22384b;
   font-weight: 600;
@@ -11984,7 +11994,7 @@ body {
 }
 
 .main-inicio .section-uno {
-  background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/css/scss/pages/banner-inicio.webp);
+  background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/banner-inicio.webp);
   background-size: cover; /* Hace que la imagen cubra todo el contenedor */
   background-position: bottom; /* Alinea la imagen al centro del contenedor */
   background-repeat: no-repeat; /* Evita la repetición de la imagen */
@@ -11992,7 +12002,8 @@ body {
 .main-inicio .section-uno .container {
   padding: 170px 0;
 }
-.main-inicio .section-uno .container .row .section-uno__info h1, .main-inicio .section-uno .container .row .section-uno__info .h1 {
+.main-inicio .section-uno .container .row .section-uno__info h1, .main-inicio .section-uno .container .row .section-uno__info .h1,
+.main-inicio .section-uno .container .row .section-uno__info p {
   font-size: clamp(0.938rem, 0.771rem + 0.532vw, 1.25rem);
   color: white;
   font-weight: 600;
@@ -12003,8 +12014,6 @@ body {
   font-weight: 800;
 }
 .main-inicio .section-uno .container .row .section-uno__info p {
-  font-size: clamp(0.938rem, 0.771rem + 0.532vw, 1.25rem);
-  color: white;
   font-weight: 500;
 }
 .main-inicio .section-uno .container .row .section-uno__info button {
@@ -12014,6 +12023,26 @@ body {
 .main-inicio .section-uno .container .row .section-uno__info button:hover {
   transform: scale(1.04);
   border: solid 1px #22384b;
+}
+.main-inicio .section-dos {
+  background-color: white;
+}
+.main-inicio .section-dos .container {
+  padding: 50px 0;
+}
+.main-inicio .section-dos .container .section-dos__info h3, .main-inicio .section-dos .container .section-dos__info .h3 {
+  font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+  font-weight: bold;
+  color: #22384b;
+}
+.main-inicio .section-dos .container .section-dos__info .section-dos-cards {
+  border: solid 1px rgb(184, 184, 184);
+  border-radius: 10px;
+}
+.main-inicio .section-dos .container .section-dos__info .section-dos-cards h4, .main-inicio .section-dos .container .section-dos__info .section-dos-cards .h4 {
+  font-size: clamp(1.25rem, 1.084rem + 0.532vw, 1.563rem);
+  font-weight: bold;
+  color: #22384b;
 }
 
 @media screen and (max-width: 576px) {
