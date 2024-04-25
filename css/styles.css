@@ -11984,7 +11984,7 @@ body {
 }
 
 .main-inicio .section-uno {
-  background-image: url(/assets/images/banner-inicio.webp);
+  background-image: url(./banner-inicio.webp);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
