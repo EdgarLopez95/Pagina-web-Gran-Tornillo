@@ -71,9 +71,9 @@
         </div>
       </nav>
     </header>
-    <main class="main-inicio">
+    <main class="main">
       <!-- seccion uno -->
-      <section class="section-uno px-3 px-sm-0">
+      <section class="section-uno__inicio px-3 px-sm-0">
         <div class="container">
           <div class="row">
             <div
@@ -104,7 +104,7 @@
         </div>
       </section>
       <!-- seccion dos -->
-      <section class="section-dos px-3 px-sm-0 ">
+      <section class="section-dos__inicio px-3 px-sm-0">
         <div class="container">
           <div class="row section-dos__info">
             <!-- icono, titulo, texto parrafo -->
@@ -194,7 +194,7 @@
         </div>
       </section>
       <!-- seccion tres -->
-      <section class="section-tres">
+      <section class="section-tres__inicio">
         <div class="container-fluid">
           <div class="row section-tres__info">
             <!-- izquierda  -->
@@ -321,10 +321,10 @@
         </div>
       </section>
       <!-- seccion cuatro -->
-      <section class="section-cuatro bg-secondary ">
+      <section class="section-cuatro__inicio bg-secondary">
         <div class="container">
           <div class="row section-cuatro__info text-center">
-            <div class="col ">
+            <div class="col">
               <img
                 src="./assets/icons/tractor-azul.svg"
                 alt="icono tractor azul"
@@ -435,10 +435,12 @@
     </main>
     <!-- footer  -->
     <footer class="footer bg-primary">
-      <div class="container  ">
-        <div class="row g-0 py-5 mx-4 mx-md-0 section-footer__info justify-content-between ">
+      <div class="container">
+        <div
+          class="row g-0 py-5 mx-4 mx-md-0 section-footer__info justify-content-between"
+        >
           <!-- izquierda  -->
-          <div class="col-12 col-md-3 mb-5 mb-md-0 section-footer__izquierda ">
+          <div class="col-12 col-md-3 mb-5 mb-md-0 section-footer__izquierda">
             <a class="navbar-brand" href="./index.html"
               ><img
                 src="./assets/icons/main-white-logo.svg"
@@ -505,7 +507,48 @@
               >
             </div>
           </div>
-          <div class="col-12 col-md-3 mb-5 mb-md-0">a</div>
+          <!-- izquierda  -->
+          <div
+            class="col-12 col-md-3 mb-5 mb-md-0 section-footer__izquierdo flex"
+          >
+            <h2 class="text-white">Contacto</h2>
+            <div>
+              <a
+                target="_blank"
+                href="https://maps.app.goo.gl/FmbcawNcftiurP9D9"
+                class="text-decoration-none"
+                ><i class="bi-house-door pe-2"></i
+                ><strong class="bold">Sede principal:</strong> Cra 5 # 24 - 45 /
+                San Nicolás , Cali</a
+              >
+            </div>
+            <div>
+              <a
+                target="_blank"
+                href="https://maps.app.goo.gl/LycHKpTrqfnWNXC17"
+                class="text-decoration-none"
+                ><i class="bi-wrench-adjustable-circle pe-2"></i
+                ><strong class="bold">Taller de servicios:</strong> Cl. 36 #8a -
+                56</a
+              >
+            </div>
+            <div>
+              <a
+                target="_blank"
+                href="https://mail.google.com/"
+                class="text-decoration-none"
+                ><i class="bi-envelope-at pe-2"></i>servicioalcliente @grantornillo.com.co</a
+              >
+            </div>
+            <div>
+              <a
+                target="_blank"
+                href="tel:(60) (2) 882 3114"
+                class="text-decoration-none"
+                ><i class="bi-telephone-forward pe-2"></i> (60) (2) 882 3114</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </footer>

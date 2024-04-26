@@ -12059,110 +12059,124 @@ h4,
 .footer .container .section-footer__info .section-footer__centro div a:hover {
   color: #fbba00;
 }
+.footer .container .section-footer__info .section-footer__izquierdo h2, .footer .container .section-footer__info .section-footer__izquierdo .h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.footer .container .section-footer__info .section-footer__izquierdo div {
+  padding-bottom: 10px;
+}
+.footer .container .section-footer__info .section-footer__izquierdo div a {
+  color: white;
+}
+.footer .container .section-footer__info .section-footer__izquierdo div a:hover {
+  color: #fbba00;
+}
 
-.main-inicio .section-uno {
+.main .section-uno__inicio {
   background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/banner-inicio.webp);
   background-size: cover; /* Hace que la imagen cubra todo el contenedor */
   background-position: bottom; /* Alinea la imagen al centro del contenedor */
   background-repeat: no-repeat; /* Evita la repetición de la imagen */
 }
-.main-inicio .section-uno .container {
+.main .section-uno__inicio .container {
   padding: 170px 0;
 }
-.main-inicio .section-uno .container .row .section-uno__info h1, .main-inicio .section-uno .container .row .section-uno__info .h1,
-.main-inicio .section-uno .container .row .section-uno__info p {
+.main .section-uno__inicio .container .row .section-uno__info h1, .main .section-uno__inicio .container .row .section-uno__info .h1,
+.main .section-uno__inicio .container .row .section-uno__info p {
   font-size: clamp(0.938rem, 0.771rem + 0.532vw, 1.25rem);
   color: white;
   font-weight: 600;
 }
-.main-inicio .section-uno .container .row .section-uno__info h2, .main-inicio .section-uno .container .row .section-uno__info .h2 {
+.main .section-uno__inicio .container .row .section-uno__info h2, .main .section-uno__inicio .container .row .section-uno__info .h2 {
   font-size: clamp(2.5rem, 0.838rem + 5.319vw, 5.625rem);
   color: white;
   font-weight: 800;
 }
-.main-inicio .section-uno .container .row .section-uno__info p {
+.main .section-uno__inicio .container .row .section-uno__info p {
   font-weight: 500;
 }
-.main-inicio .section-uno .container .row .section-uno__info button {
+.main .section-uno__inicio .container .row .section-uno__info button {
   font-weight: 600;
   transition: all 300ms;
 }
-.main-inicio .section-uno .container .row .section-uno__info button:hover {
+.main .section-uno__inicio .container .row .section-uno__info button:hover {
   transform: scale(1.04);
   border: solid 1px #22384b;
 }
-.main-inicio .section-dos {
+.main .section-dos__inicio {
   background-color: white;
 }
-.main-inicio .section-dos .container {
+.main .section-dos__inicio .container {
   padding: 50px 0 100px 0;
 }
-.main-inicio .section-dos .container .section-dos__info h3, .main-inicio .section-dos .container .section-dos__info .h3 {
+.main .section-dos__inicio .container .section-dos__info h3, .main .section-dos__inicio .container .section-dos__info .h3 {
   font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
   font-weight: bold;
   color: #22384b;
 }
-.main-inicio .section-dos .container .section-dos__info .section-dos-cards {
+.main .section-dos__inicio .container .section-dos__info .section-dos-cards {
   border: solid 1px rgb(184, 184, 184);
   border-radius: 10px;
 }
-.main-inicio .section-dos .container .section-dos__info .section-dos-cards h4, .main-inicio .section-dos .container .section-dos__info .section-dos-cards .h4 {
+.main .section-dos__inicio .container .section-dos__info .section-dos-cards h4, .main .section-dos__inicio .container .section-dos__info .section-dos-cards .h4 {
   font-size: clamp(1.25rem, 1.084rem + 0.532vw, 1.563rem);
   font-weight: bold;
   color: #22384b;
 }
-.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main-inicio .section-tres .container-md .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon,
-.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
-.main-inicio .section-tres .container-sm .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
-.main-inicio .section-tres .container-md .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
-.main-inicio .section-tres .container-lg .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
-.main-inicio .section-tres .container-xl .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
-.main-inicio .section-tres .container-xxl .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon {
+.main .section-tres__inicio .container-fluid .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main .section-tres__inicio .container-sm .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main .section-tres__inicio .container-md .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main .section-tres__inicio .container-lg .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main .section-tres__inicio .container-xl .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main .section-tres__inicio .container-xxl .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon,
+.main .section-tres__inicio .container-fluid .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
+.main .section-tres__inicio .container-sm .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
+.main .section-tres__inicio .container-md .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
+.main .section-tres__inicio .container-lg .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
+.main .section-tres__inicio .container-xl .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
+.main .section-tres__inicio .container-xxl .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon {
   background-color: #22384b;
   background-size: 100%, 100%;
   border-radius: 10%;
   height: 30px;
   width: 30px;
 }
-.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha {
+.main .section-tres__inicio .container-fluid .section-tres__info .section-tres__derecha, .main .section-tres__inicio .container-sm .section-tres__info .section-tres__derecha, .main .section-tres__inicio .container-md .section-tres__info .section-tres__derecha, .main .section-tres__inicio .container-lg .section-tres__info .section-tres__derecha, .main .section-tres__inicio .container-xl .section-tres__info .section-tres__derecha, .main .section-tres__inicio .container-xxl .section-tres__info .section-tres__derecha {
   background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/imagen-derecha-inicio.webp);
 }
-.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info {
+.main .section-tres__inicio .container-fluid .section-tres__info .section-tres__derecha .info, .main .section-tres__inicio .container-sm .section-tres__info .section-tres__derecha .info, .main .section-tres__inicio .container-md .section-tres__info .section-tres__derecha .info, .main .section-tres__inicio .container-lg .section-tres__info .section-tres__derecha .info, .main .section-tres__inicio .container-xl .section-tres__info .section-tres__derecha .info, .main .section-tres__inicio .container-xxl .section-tres__info .section-tres__derecha .info {
   max-width: 610px;
   max-height: 826px;
 }
-.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info .h3, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info .h3, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info .h3, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info .h3, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info .h3, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info .h3 {
+.main .section-tres__inicio .container-fluid .section-tres__info .section-tres__derecha .info h3, .main .section-tres__inicio .container-sm .section-tres__info .section-tres__derecha .info h3, .main .section-tres__inicio .container-md .section-tres__info .section-tres__derecha .info h3, .main .section-tres__inicio .container-lg .section-tres__info .section-tres__derecha .info h3, .main .section-tres__inicio .container-xl .section-tres__info .section-tres__derecha .info h3, .main .section-tres__inicio .container-xxl .section-tres__info .section-tres__derecha .info h3, .main .section-tres__inicio .container-fluid .section-tres__info .section-tres__derecha .info .h3, .main .section-tres__inicio .container-sm .section-tres__info .section-tres__derecha .info .h3, .main .section-tres__inicio .container-md .section-tres__info .section-tres__derecha .info .h3, .main .section-tres__inicio .container-lg .section-tres__info .section-tres__derecha .info .h3, .main .section-tres__inicio .container-xl .section-tres__info .section-tres__derecha .info .h3, .main .section-tres__inicio .container-xxl .section-tres__info .section-tres__derecha .info .h3 {
   font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
   font-weight: bold;
   color: #fbba00;
 }
-.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info p, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info p, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info p, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info p, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info p, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info p {
+.main .section-tres__inicio .container-fluid .section-tres__info .section-tres__derecha .info p, .main .section-tres__inicio .container-sm .section-tres__info .section-tres__derecha .info p, .main .section-tres__inicio .container-md .section-tres__info .section-tres__derecha .info p, .main .section-tres__inicio .container-lg .section-tres__info .section-tres__derecha .info p, .main .section-tres__inicio .container-xl .section-tres__info .section-tres__derecha .info p, .main .section-tres__inicio .container-xxl .section-tres__info .section-tres__derecha .info p {
   color: white;
 }
-.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards {
+.main .section-tres__inicio .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards, .main .section-tres__inicio .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards, .main .section-tres__inicio .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards, .main .section-tres__inicio .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards, .main .section-tres__inicio .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards, .main .section-tres__inicio .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards {
   background-color: #20384a;
   border: 1px solid #3a6883;
   border-radius: 10px;
   transition: all 300ms;
 }
-.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards:hover {
+.main .section-tres__inicio .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main .section-tres__inicio .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main .section-tres__inicio .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main .section-tres__inicio .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main .section-tres__inicio .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main .section-tres__inicio .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards:hover {
   background-color: rgba(20, 39, 54, 0.308);
   transform: scale(1.03);
 }
-.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards .h5 {
+.main .section-tres__inicio .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main .section-tres__inicio .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main .section-tres__inicio .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main .section-tres__inicio .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main .section-tres__inicio .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main .section-tres__inicio .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main .section-tres__inicio .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main .section-tres__inicio .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main .section-tres__inicio .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main .section-tres__inicio .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main .section-tres__inicio .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main .section-tres__inicio .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards .h5 {
   color: white;
   font-size: 16px;
 }
-.main-inicio .section-cuatro {
+.main .section-cuatro__inicio {
   padding: 50px 0 100px 0;
 }
-.main-inicio .section-cuatro .container .section-cuatro__info h3, .main-inicio .section-cuatro .container .section-cuatro__info .h3 {
+.main .section-cuatro__inicio .container .section-cuatro__info h3, .main .section-cuatro__inicio .container .section-cuatro__info .h3 {
   font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
   font-weight: bold;
   color: #22384b;
 }
 @media screen and (max-width: 576px) {
-  .main-inicio .section-uno .container {
+  .main .section-uno__inicio .container {
     padding: 110px 0;
   }
 }/*# sourceMappingURL=styles.css.map */
