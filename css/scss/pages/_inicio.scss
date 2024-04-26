@@ -1,4 +1,8 @@
 .main-inicio {
+  .lineas{
+    border: 1px solid red;
+    background-color: #4a20291c;
+  }
   .section-uno {
     background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/banner-inicio.webp);
     background-size: cover; /* Hace que la imagen cubra todo el contenedor */
@@ -104,6 +108,21 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+  .section-cuatro{
+    .container{
+      padding: 50px 0 100px 0;
+      .section-cuatro__info{
+        h3{
+          font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+          font-weight: bold;
+          color: $primary;
+        }
+        img{
+          //width: 5%;
         }
       }
     }
