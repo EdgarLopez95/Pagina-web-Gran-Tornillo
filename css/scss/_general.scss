@@ -42,8 +42,9 @@ h4 {
   background-size: cover; /* Hace que la imagen cubra todo el contenedor */
   background-position: center; /* Alinea la imagen al centro del contenedor */
   background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  padding: 100px 0 100px 0;
   .container {
-    padding: 100px 0 100px 0;
+  
     h2 {
       font-size: clamp(2.5rem, 1.607rem + 2.381vw, 3.75rem);
       color: white;

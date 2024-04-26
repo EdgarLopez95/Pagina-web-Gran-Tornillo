@@ -12010,8 +12010,6 @@ h4,
   background-size: cover; /* Hace que la imagen cubra todo el contenedor */
   background-position: center; /* Alinea la imagen al centro del contenedor */
   background-repeat: no-repeat; /* Evita la repetición de la imagen */
-}
-.section-contacto .container {
   padding: 100px 0 100px 0;
 }
 .section-contacto .container h2, .section-contacto .container .h2 {
@@ -12155,7 +12153,7 @@ h4,
   color: white;
   font-size: 16px;
 }
-.main-inicio .section-cuatro .container {
+.main-inicio .section-cuatro {
   padding: 50px 0 100px 0;
 }
 .main-inicio .section-cuatro .container .section-cuatro__info h3, .main-inicio .section-cuatro .container .section-cuatro__info .h3 {
