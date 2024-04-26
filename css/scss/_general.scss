@@ -1,12 +1,20 @@
+.lineas {
+  border: 1px solid red;
+  background-color: #4a20291c;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
-p{
-    color: $colorParrafos;
-    font-size: 16px;
+p {
+  color: $colorParrafos;
+  font-size: 16px;
 }
-p, h1, h2, h3, h4{
-    hyphens: none;
+p,
+h1,
+h2,
+h3,
+h4 {
+  hyphens: none;
 }
 
 .header {
@@ -24,6 +32,73 @@ p, h1, h2, h3, h4{
       .nav-link.active {
         font-weight: 700;
         color: $secondary;
+      }
+    }
+  }
+}
+
+.section-contacto {
+  background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/banner-contacto.webp);
+  background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+  background-position: center; /* Alinea la imagen al centro del contenedor */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  .container {
+    padding: 100px 0 100px 0;
+    h2 {
+      font-size: clamp(2.5rem, 1.607rem + 2.381vw, 3.75rem);
+      color: white;
+      font-weight: 700;
+    }
+    button {
+      color: $primary;
+    }
+  }
+}
+.footer {
+  .container {
+    .section-footer__info {
+      .section-footer__izquierda {
+        .logo__blanco {
+          transition: all 300ms;
+          &:hover {
+            transform: scale(1.03);
+          }
+        }
+        .icono {
+          font-size: 25px;
+          color: white;
+          transition: all 300ms;
+          padding-right: 5px;
+          &:hover {
+            color: $secondary;
+          }
+        }
+        button {
+          font-weight: 600;
+          transition: all 300ms;
+          &:hover {
+            transform: scale(1.04);
+            border: solid 1px $primary;
+            background-color: $secondary;
+          }
+        }
+      }
+      .section-footer__centro {
+        h2 {
+          font-size: 25px;
+          font-weight: 700;
+          margin-bottom: 40px;
+        }
+        div {
+          padding-bottom: 10px;
+          a {
+            color: white;
+
+            &:hover {
+              color: $secondary;
+            }
+          }
+        }
       }
     }
   }

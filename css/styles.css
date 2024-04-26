@@ -11965,6 +11965,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.lineas {
+  border: 1px solid red;
+  background-color: rgba(74, 32, 41, 0.1098039216);
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -11974,7 +11979,15 @@ p {
   font-size: 16px;
 }
 
-p, h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+p,
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
   -webkit-hyphens: none;
           hyphens: none;
 }
@@ -11992,10 +12005,63 @@ p, h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   color: #fbba00;
 }
 
-.main-inicio .lineas {
-  border: 1px solid red;
-  background-color: rgba(74, 32, 41, 0.1098039216);
+.section-contacto {
+  background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/banner-contacto.webp);
+  background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+  background-position: center; /* Alinea la imagen al centro del contenedor */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
 }
+.section-contacto .container {
+  padding: 100px 0 100px 0;
+}
+.section-contacto .container h2, .section-contacto .container .h2 {
+  font-size: clamp(2.5rem, 1.607rem + 2.381vw, 3.75rem);
+  color: white;
+  font-weight: 700;
+}
+.section-contacto .container button {
+  color: #22384b;
+}
+
+.footer .container .section-footer__info .section-footer__izquierda .logo__blanco {
+  transition: all 300ms;
+}
+.footer .container .section-footer__info .section-footer__izquierda .logo__blanco:hover {
+  transform: scale(1.03);
+}
+.footer .container .section-footer__info .section-footer__izquierda .icono {
+  font-size: 25px;
+  color: white;
+  transition: all 300ms;
+  padding-right: 5px;
+}
+.footer .container .section-footer__info .section-footer__izquierda .icono:hover {
+  color: #fbba00;
+}
+.footer .container .section-footer__info .section-footer__izquierda button {
+  font-weight: 600;
+  transition: all 300ms;
+}
+.footer .container .section-footer__info .section-footer__izquierda button:hover {
+  transform: scale(1.04);
+  border: solid 1px #22384b;
+  background-color: #fbba00;
+}
+.footer .container .section-footer__info .section-footer__centro h2, .footer .container .section-footer__info .section-footer__centro .h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.footer .container .section-footer__info .section-footer__centro div {
+  padding-bottom: 10px;
+}
+.footer .container .section-footer__info .section-footer__centro div a {
+  color: white;
+}
+.footer .container .section-footer__info .section-footer__centro div a:hover {
+  color: #fbba00;
+}
+
 .main-inicio .section-uno {
   background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/banner-inicio.webp);
   background-size: cover; /* Hace que la imagen cubra todo el contenedor */
