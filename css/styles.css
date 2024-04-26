@@ -12061,7 +12061,7 @@ p, h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   width: 30px;
 }
 .main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha {
-  background-image: url(../../../assets/images/imagen-derecha-inicio.webp);
+  background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/imagen-derecha-inicio.webp);
 }
 .main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info {
   max-width: 610px;
