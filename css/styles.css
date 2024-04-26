@@ -11966,7 +11966,6 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: rgb(206, 206, 206);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -12028,7 +12027,7 @@ p, h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   background-color: white;
 }
 .main-inicio .section-dos .container {
-  padding: 50px 0;
+  padding: 50px 0 100px 0;
 }
 .main-inicio .section-dos .container .section-dos__info h3, .main-inicio .section-dos .container .section-dos__info .h3 {
   font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
@@ -12043,6 +12042,48 @@ p, h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-size: clamp(1.25rem, 1.084rem + 0.532vw, 1.563rem);
   font-weight: bold;
   color: #22384b;
+}
+.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main-inicio .section-tres .container-md .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__izquierda .carousel .carousel-control-prev-icon,
+.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
+.main-inicio .section-tres .container-sm .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
+.main-inicio .section-tres .container-md .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
+.main-inicio .section-tres .container-lg .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
+.main-inicio .section-tres .container-xl .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon,
+.main-inicio .section-tres .container-xxl .section-tres__info .section-tres__izquierda .carousel .carousel-control-next-icon {
+  background-color: #22384b;
+  background-size: 100%, 100%;
+  border-radius: 10%;
+  height: 30px;
+  width: 30px;
+}
+.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha {
+  background-image: url(../../../assets/images/imagen-derecha-inicio.webp);
+}
+.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info {
+  max-width: 610px;
+  max-height: 826px;
+}
+.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info h3, .main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info .h3, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info .h3, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info .h3, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info .h3, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info .h3, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info .h3 {
+  font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+  font-weight: bold;
+  color: #fbba00;
+}
+.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info p, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info p, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info p, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info p, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info p, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info p {
+  color: white;
+}
+.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards {
+  background-color: #20384a;
+  border: 1px solid #3a6883;
+  border-radius: 10px;
+  transition: all 300ms;
+}
+.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards:hover, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards:hover {
+  background-color: rgba(20, 39, 54, 0.308);
+  transform: scale(1.03);
+}
+.main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards h5, .main-inicio .section-tres .container-fluid .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main-inicio .section-tres .container-sm .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main-inicio .section-tres .container-md .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main-inicio .section-tres .container-lg .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main-inicio .section-tres .container-xl .section-tres__info .section-tres__derecha .info .section-tres-cards .h5, .main-inicio .section-tres .container-xxl .section-tres__info .section-tres__derecha .info .section-tres-cards .h5 {
+  color: white;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 576px) {

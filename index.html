@@ -24,7 +24,7 @@
   </head>
   <body>
     <header class="header">
-      <nav class="navbar bg-light navbar-expand-lg">
+      <nav class="navbar fixed-top bg-white navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#"
             ><img
@@ -72,6 +72,7 @@
       </nav>
     </header>
     <main class="main-inicio">
+      <!-- seccion uno -->
       <section class="section-uno px-3 px-sm-0">
         <div class="container">
           <div class="row">
@@ -102,9 +103,11 @@
           </div>
         </div>
       </section>
+      <!-- seccion dos -->
       <section class="section-dos px-3 px-sm-0">
         <div class="container">
           <div class="row section-dos__info">
+            <!-- icono, titulo, texto parrafo -->
             <div
               class="col text-center"
               data-aos="fade-up"
@@ -124,6 +127,7 @@
                 mejoras, garantizando la mejor relación precio/beneficio.
               </p>
             </div>
+            <!-- cards o cuadritos -->
             <div class="row g-3">
               <div
                 class="col-md-4 col-12 text-center"
@@ -138,9 +142,9 @@
                   />
                   <h4 class="px-1 px-sm-3">Multimarcas</h4>
                   <p class="px-1 px-sm-3">
-                    Explora nuestra amplia variedad de partes y marcas
-                    certificadas para brindarte la calidad y confianza que tu
-                    maquinaria merece.
+                    Explora nuestra amplia <strong>variedad</strong> de partes y
+                    marcas certificadas para brindarte la calidad y confianza
+                    que tu maquinaria merece.
                   </p>
                 </div>
               </div>
@@ -157,7 +161,8 @@
                   />
                   <h4 class="px-1 px-sm-3">Atención personalizada</h4>
                   <p class="px-1 px-sm-3">
-                    Nuestro enfoque en atención y acompañamiento a nuestros
+                    Nuestro enfoque en
+                    <strong>atención y acompañamiento </strong>a nuestros
                     clientes, ha permitido crear relaciones duraderas basadas en
                     la confianza
                   </p>
@@ -176,7 +181,8 @@
                   />
                   <h4 class="px-1 px-sm-3">Taller</h4>
                   <p class="px-1 px-sm-3">
-                    Con nuestros servicios a tu alcance, prestamos servicio de
+                    Con nuestros servicios a
+                    <strong>tu alcance,</strong> prestamos servicio de
                     mantenimiento y reparación en nuestro taller como en las
                     instalaciones del cliente.
                   </p>
@@ -186,7 +192,132 @@
           </div>
         </div>
       </section>
-      <section class="section-tres"></section>
+      <!-- seccion tres -->
+      <section class="section-tres">
+        <div class="container-fluid">
+          <div class="row section-tres__info">
+            <!-- izquierda  -->
+            <div
+              class="col-12 col-lg-6 section-tres__izquierda g-0"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./assets/images/imagen-slider-1.webp"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./assets/images/imagen-slide-2.webp"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./assets/images/imagen-slider-3.webp"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!-- derecha -->
+            <div
+              class="col-12 col-lg-6 section-tres__derecha g-0 align-content-center"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <div class="info ms-5 me-3 py-5">
+                <img
+                  src="./assets/icons/tractor-amarillo.svg"
+                  alt="icono tractor azul"
+                  width="50"
+                  class="img-fluid section-dos__tractor m-3"
+                />
+                <h3>Sectores</h3>
+                <p>
+                  En IMPORTADORA EL GRAN TORNILLO S.A.S, nos especializamos en
+                  atender las necesidades del sector mediante la provisión de
+                  repuestos y servicios de mantenimiento y reparación para
+                  maquinaria pesada.
+                </p>
+                <div class="row g-3">
+                  <div
+                    class="col-md-5 col-5 text-center"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="section-tres-cards h-100 p-3">
+                      <a href="#">
+                        <img
+                          src="./assets//icons/icono-producto-inicio.svg"
+                          alt="Imagen de bombillo"
+                          class="img-fluid"
+                          width="80px"
+                        />
+                        <h5 class="mt-3">Productos</h5></a
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-5 col-5 text-center"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="section-tres-cards h-100 p-3">
+                      <a href="#">
+                        <img
+                          src="./assets/icons/icono-servicio-inicio.svg"
+                          alt="Imagen de bombillo"
+                          class="img-fluid"
+                          width="85px"
+                        />
+                        <h5 class="mt-3">Servicios</h5></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- seccion cuatro -->
       <section class="section-cuatro"></section>
     </main>
     <script src="./js/bootstrap.bundle.min.js"></script>

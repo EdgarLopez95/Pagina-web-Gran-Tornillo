@@ -37,7 +37,7 @@
   .section-dos {
     background-color: white;
     .container {
-      padding: 50px 0;
+      padding: 50px 0 100px 0;
       .section-dos__info {
         h3 {
           font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
@@ -51,6 +51,58 @@
             font-size: clamp(1.25rem, 1.084rem + 0.532vw, 1.563rem);
             font-weight: bold;
             color: $primary;
+          }
+        }
+      }
+    }
+  }
+  .section-tres {
+    .container-fluid {
+      // padding: 50px 0;
+      .section-tres__info {
+        // height: 800px;
+        .section-tres__izquierda {
+          .carousel {
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+              background-color: $primary;
+              background-size: 100%, 100%;
+              border-radius: 10%;
+              // padding: 10px 10px;
+              height: 30px;
+              width: 30px;
+            }
+          }
+        }
+        .section-tres__derecha {
+          background-image: url(../../../assets/images/imagen-derecha-inicio.webp);
+          .info {
+            max-width: 610px;
+            max-height: 826px;
+            h3 {
+              font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+              font-weight: bold;
+              color: $secondary;
+            }
+            p {
+              color: white;
+            }
+            .section-tres-cards {
+              background-color: #20384a;
+              border: 1px solid #3a6883;
+              border-radius: 10px;
+              transition: all 300ms;
+              &:hover {
+                background-color: rgba(20, 39, 54, 0.308);
+                transform: scale(1.03);
+              }
+              img {
+              }
+              h5 {
+                color: white;
+                font-size: 16px;
+              }
+            }
           }
         }
       }
