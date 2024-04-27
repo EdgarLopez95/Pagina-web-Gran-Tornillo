@@ -11977,6 +11977,7 @@ body {
 p {
   color: #475764;
   font-size: 16px;
+  margin: 0;
 }
 
 p,
@@ -12175,6 +12176,45 @@ h4,
   font-weight: bold;
   color: #22384b;
 }
+.section-uno__nosotros {
+  margin-top: 80px;
+  background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/banner-nosotros.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-uno__nosotros .container .row {
+  height: 470px;
+}
+.section-uno__nosotros .container .row .section-uno__info h2, .section-uno__nosotros .container .row .section-uno__info .h2 {
+  font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+  font-weight: bold;
+}
+
+.section-dos__nosotros {
+  padding: 50px 0 100px 0;
+}
+.section-dos__nosotros .container .section-dos__info .section-dos__arriba p {
+  text-align: justify;
+}
+.section-dos__nosotros .container .section-dos__info .section-dos__abajo p {
+  text-align: justify;
+}
+.section-dos__nosotros .container .section-dos__info .section-dos__abajo h3, .section-dos__nosotros .container .section-dos__info .section-dos__abajo .h3 {
+  text-align: start;
+  font-size: 25;
+  font-weight: bold;
+  color: #22384b;
+  margin: 30px 0;
+}
+.section-dos__nosotros .container .section-dos__info .section-dos__abajo .texto {
+  display: flex;
+  margin-bottom: 10px;
+}
+.section-dos__nosotros .container .section-dos__info .section-dos__abajo .texto img {
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 576px) {
   .main .section-uno__inicio .container {
     padding: 110px 0;
