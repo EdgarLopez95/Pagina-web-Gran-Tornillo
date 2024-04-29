@@ -12294,6 +12294,37 @@ h4,
   font-size: 16px;
 }
 
+.section-cuatro__nosotros {
+  background-color: white;
+  padding: 50px 0 100px 0;
+}
+.section-cuatro__nosotros .container .section-cuatro__info .centrar__icono {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.section-cuatro__nosotros .container .section-cuatro__info .font {
+  font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+  font-weight: bold;
+  color: #22384b;
+  text-align: center;
+}
+.section-cuatro__nosotros .container .section-cuatro__info .cards div .card {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  box-shadow: -20px -20px 0px 0px rgb(32, 56, 74);
+}
+.section-cuatro__nosotros .container .section-cuatro__info .cards div .card .texto {
+  text-align: justify;
+}
+.section-cuatro__nosotros .container .section-cuatro__info .cards div .card .texto .titulo {
+  font-size: 15;
+  text-align: start;
+  font-weight: bold;
+  color: #22384b;
+}
+
 .historia {
   /*small device style*/
   /*extra small device style */

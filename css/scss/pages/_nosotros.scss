@@ -145,8 +145,41 @@
   }
 }
 .section-cuatro__nosotros {
+  background-color: white;
+  padding: 50px 0 100px 0;
   .container {
     .section-cuatro__info {
+      .centrar__icono {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      .font {
+        font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+        font-weight: bold;
+        color: $primary;
+        text-align: center;
+      }
+      .cards {
+        div {
+          .card {
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            box-shadow: -20px -20px 0px 0px rgba(32, 56, 74, 1);
+
+            .texto {
+              text-align: justify;
+              .titulo {
+                font-size: 15;
+                text-align: start;
+                font-weight: bold;
+                color: $primary;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
