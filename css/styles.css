@@ -12215,8 +12215,376 @@ h4,
   margin-right: 10px;
 }
 
+.section-tres__nosotros {
+  padding: 50px 0 100px 0;
+  background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/fondo-historia-nosotros.webp);
+  background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+  background-position: center; /* Alinea la imagen al centro del contenedor */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+.section-tres__nosotros .container .section-tres__info .centrar__icono {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.section-tres__nosotros .container .section-tres__info h3, .section-tres__nosotros .container .section-tres__info .h3 {
+  font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+  font-weight: bold;
+  color: #fbba00;
+  text-align: center;
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__historia {
+  position: relative;
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__historia::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  border-left: 8px solid white;
+  height: 100%;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__historia .historia__cuadro-fecha .historia__cuadro .cuadro {
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.308);
+  border-radius: 15px;
+  background-color: rgba(0, 66, 88, 0.3490196078);
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__historia .historia__cuadro-fecha .historia__cuadro .cuadro img {
+  max-width: 40%;
+  height: auto;
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__historia .historia__cuadro-fecha .historia__cuadro .cuadro .historia__texto h3, .section-tres__nosotros .container .section-tres__info .section-tres__historia .historia__cuadro-fecha .historia__cuadro .cuadro .historia__texto .h3 {
+  font-size: 20px;
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__historia .historia__cuadro-fecha .historia__cuadro .cuadro .historia__texto p {
+  font-size: 16px;
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__historia .historia__cuadro-fecha .historia__fecha {
+  z-index: 2;
+}
+
+.historia {
+  /*small device style*/
+  /*extra small device style */
+}
+.historia .imagenEscabadora {
+  max-width: 50px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+.historia .titulo {
+  text-align: center;
+  font-size: clamp(30px, 8vw, 50px);
+  font-weight: bold;
+  color: #fab800;
+  margin-bottom: 100px;
+}
+.historia .timeline {
+  padding: 50px 0;
+  position: relative;
+}
+.historia .timeline-nodes {
+  padding-bottom: 25px;
+  position: relative;
+}
+.historia .timeline-nodes:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.historia .timeline h3, .historia .timeline .h3,
+.historia .timeline p {
+  -webkit-hyphens: none;
+          hyphens: none;
+  padding: 2px;
+  margin: 0;
+}
+.historia .timeline h3, .historia .timeline .h3 {
+  font-weight: lighter;
+  color: #fab800;
+}
+.historia .timeline p,
+.historia .timeline time {
+  color: white;
+}
+.historia .timeline::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  border-left: 8px solid white;
+  height: 100%;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+.historia .timeline-content {
+  border: 1px solid rgba(255, 255, 255, 0.308);
+  position: relative;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 3px 25px 0px rgba(10, 55, 90, 0.2);
+  background-color: rgba(0, 66, 88, 0.3490196078);
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.historia .timeline-nodes:nth-child(odd) .imagenn,
+.historia .timeline-nodes:nth-child(odd) p {
+  text-align: right;
+  margin-right: 0;
+  display: block;
+}
+.historia .cuadrito {
+  display: flex;
+  align-items: center;
+}
+.historia .imagenn {
+  max-width: 40%;
+  padding: 10px 10px;
+  height: auto;
+}
+.historia .texto-derecha {
+  padding: 0 25px;
+}
+.historia .texto-derecha h3, .historia .texto-derecha .h3 {
+  text-align: end;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.historia .texto-derecha .otro-texto {
+  text-align: start;
+}
+.historia .texto-derecha-b {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-left: 10px; /* Espacio entre la imagen y el texto (ajustable) */
+  max-width: 60%; /* Ancho máximo que ocupará el texto (ajustable) */
+  box-sizing: border-box; /* Incluye el padding en el ancho total */
+  top: 50%; /* Coloca la parte superior del texto en el centro vertical */
+  transform: translateY(-50%);
+}
+.historia .timeline-nodes:nth-child(odd) .timeline-date {
+  text-align: left;
+}
+.historia .timeline-nodes:nth-child(even) .timeline-date {
+  text-align: right;
+}
+.historia .timeline-nodes:nth-child(odd) .timeline-content::after {
+  content: "";
+  position: absolute;
+  top: 37%;
+  left: 100%;
+  width: 0;
+  border-left: 15px solid #fab800;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+.historia .timeline-nodes:nth-child(even) .timeline-content::after {
+  content: "";
+  position: absolute;
+  top: 37%;
+  right: 100%;
+  width: 0;
+  border-right: 15px solid #fab800;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+.historia .timeline-image {
+  position: relative;
+  z-index: 100;
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+}
+.historia .timeline-image img {
+  position: relative;
+  z-index: 100;
+}
+@media (max-width: 1000px) {
+  .historia .timeline-nodes:nth-child(odd) h3, .historia .timeline-nodes:nth-child(odd) .h3,
+  .historia .timeline-nodes:nth-child(odd) p {
+    text-align: left;
+  }
+  .historia .timeline-nodes:nth-child(even) {
+    flex-direction: row;
+  }
+  .historia .timeline::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    border-left: 8px solid white;
+    height: 100%;
+    z-index: 1;
+    transform: translateX(-50%);
+  }
+  .historia .timeline h3, .historia .timeline .h3 {
+    font-size: 1.7rem;
+  }
+  .historia .timeline p {
+    font-size: 14px;
+  }
+  .historia .timeline-image {
+    position: absolute;
+    left: -10%;
+    /*transform: translateX(-50%;);*/
+  }
+  .historia .timeline-nodes:nth-child(odd) .timeline-content::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: auto;
+    right: 100%;
+    width: 0;
+    border-left: 0;
+    border-right: 10px solid var(--blue);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  .historia .timeline-nodes:nth-child(even) .timeline-content::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 100%;
+    width: 0;
+    border-right: 10px solid var(--blue);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  .historia .timeline-date {
+    display: none;
+  }
+  .historia .timeline-nodes:nth-child(even) .timeline-date {
+    text-align: left;
+  }
+  .historia .timeline-image::before {
+    width: 65px;
+    height: 65px;
+  }
+}
+@media (max-width: 767px) {
+  .historia .timeline-nodes:nth-child(odd) h3, .historia .timeline-nodes:nth-child(odd) .h3,
+  .historia .timeline-nodes:nth-child(odd) p {
+    text-align: left;
+  }
+  .historia .timeline-nodes:nth-child(even) {
+    flex-direction: row;
+  }
+  .historia .timeline::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    border-left: 8px solid white;
+    height: 100%;
+    z-index: 1;
+    transform: translateX(-50%);
+  }
+  .historia .timeline h3, .historia .timeline .h3 {
+    font-size: 1.7rem;
+  }
+  .historia .timeline p {
+    font-size: 14px;
+  }
+  .historia .timeline-image {
+    position: absolute;
+    left: -9%;
+    width: 120px;
+    height: 120px;
+    /*transform: translateX(-50%;);*/
+  }
+  .historia .timeline-nodes:nth-child(odd) .timeline-content::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: auto;
+    right: 100%;
+    width: 0;
+    border-left: 0;
+    border-right: 10px solid var(--blue);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  .historia .timeline-nodes:nth-child(even) .timeline-content::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 100%;
+    width: 0;
+    border-right: 10px solid var(--blue);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  .historia .timeline-date {
+    display: none;
+  }
+  .historia .timeline-nodes:nth-child(even) .timeline-date {
+    text-align: left;
+  }
+  .historia .timeline-image::before {
+    width: 65px;
+    height: 65px;
+  }
+}
+@media (max-width: 575px) {
+  .historia .timeline {
+    padding: 1px;
+  }
+  .historia .cuadrito {
+    margin: 10px 0;
+  }
+  .historia .timeline-image {
+    display: none;
+    position: absolute;
+    left: -1%;
+  }
+  .historia .timeline::before {
+    display: none;
+  }
+  .historia .timeline-nodes:nth-child(odd) .timeline-content::after {
+    display: none;
+  }
+  .historia .timeline-nodes:nth-child(even) .timeline-content::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main .section-tres__nosotros .section-tres__info .section-tres__historia::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 11%;
+    width: 0;
+    border-left: 8px solid white;
+    height: 100%;
+    z-index: 1;
+    transform: translateX(-50%);
+  }
+}
 @media screen and (max-width: 576px) {
   .main .section-uno__inicio .container {
     padding: 110px 0;
+  }
+  .main .section-tres__nosotros .section-tres__info .section-tres__historia::before {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 11%;
+    width: 0;
+    border-left: 8px solid white;
+    height: 100%;
+    z-index: 1;
+    transform: translateX(-50%);
   }
 }/*# sourceMappingURL=styles.css.map */

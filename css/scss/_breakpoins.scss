@@ -1,8 +1,49 @@
+@media screen and (max-width: 992px) {
+  .main {
+    .section-tres__nosotros {
+      .section-tres__info {
+        .section-tres__historia {
+          &::before {
+            content: "";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 11%;
+          width: 0;
+          border-left: 8px solid white;
+          height: 100%;
+          z-index: 1;
+          transform: translateX(-50%);
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 576px) {
   .main {
     .section-uno__inicio {
       .container {
         padding: 110px 0;
+      }
+    }
+    .section-tres__nosotros {
+      .section-tres__info {
+        .section-tres__historia {
+          &::before {
+            content: "";
+          display: none;
+          position: absolute;
+          top: 0;
+          left: 11%;
+          width: 0;
+          border-left: 8px solid white;
+          height: 100%;
+          z-index: 1;
+          transform: translateX(-50%);
+          }
+        }
       }
     }
   }
