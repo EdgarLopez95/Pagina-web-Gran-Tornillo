@@ -12267,6 +12267,32 @@ h4,
 .section-tres__nosotros .container .section-tres__info .section-tres__historia .historia__cuadro-fecha .historia__fecha {
   z-index: 2;
 }
+.section-tres__nosotros .container .section-tres__info .section-tres__cuadro-info {
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__cuadro-info .row .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__cuadro-info .row .col .imagen {
+  align-items: center;
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__cuadro-info .row .col .imagen img {
+  width: 66px;
+  margin-right: 25px;
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__cuadro-info .row .col .text .texto-grande {
+  color: #22384b;
+  font-weight: bold;
+  font-size: clamp(20px, 8vw, 40px);
+  margin-bottom: 0;
+}
+.section-tres__nosotros .container .section-tres__info .section-tres__cuadro-info .row .col .text .texto-pequeño {
+  color: #475764;
+  font-size: 16px;
+}
 
 .historia {
   /*small device style*/

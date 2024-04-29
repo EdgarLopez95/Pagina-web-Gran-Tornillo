@@ -50,315 +50,6 @@
     }
   }
 }
-// .section-tres__nosotros {
-//     background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/fondo-historia-nosotros.webp);
-//     background-size: cover; /* Hace que la imagen cubra todo el contenedor */
-//     background-position: center; /* Alinea la imagen al centro del contenedor */
-//     background-repeat: no-repeat; /* Evita la repetición de la imagen */
-//   .container {
-//     padding: 70px 20px 80px 0px;
-//     .historia {
-//       .imagenEscabadora {
-//         max-width: 50px;
-//         padding-bottom: 30px;
-
-//       }
-//       .titulo {
-//         text-align: center;
-//         font-size: clamp(30px, 8vw, 50px);
-//         font-weight: bold;
-//         color: #fab800;
-//         margin-bottom: 100px;
-//       }
-
-//       .timeline {
-//         //display: none;
-//         padding: 50px 0;
-//         position: relative;
-//       }
-//       .timeline-nodes {
-//         padding-bottom: 25px;
-//         position: relative;
-//       }
-//       .timeline-nodes:nth-child(even) {
-//         flex-direction: row-reverse;
-//       }
-//       .timeline h3,
-//       .timeline p {
-//         hyphens: none;
-//         padding: 2px;
-//         margin: 0;
-//       }
-//       .timeline h3 {
-//         font-weight: lighter;
-//         color: #fab800;
-//         //background: var(--blue);
-//       }
-//       .timeline p,
-//       .timeline time {
-//         color: white;
-//       }
-//       .timeline::before {
-//         content: "";
-//         display: block;
-//         position: absolute;
-//         top: 0;
-//         left: 50%;
-//         width: 0;
-//         border-left: 8px solid white;
-//         height: 100%;
-//         z-index: 1;
-//         transform: translateX(-50%);
-//       }
-
-//       .timeline-content {
-//         border: 1px solid rgba(255, 255, 255, 0.308);
-//         position: relative;
-//         border-radius: 15px 15px 15px 15px;
-//         box-shadow: 0px 3px 25px 0px rgba(10, 55, 90, 0.2);
-//         background-color: #00425859;
-//         padding-left: 0px;
-//         padding-right: 0px;
-//       }
-//       .timeline-nodes:nth-child(odd) .imagenn,
-//       .timeline-nodes:nth-child(odd) p {
-//         text-align: right;
-//         //margin-left: auto;
-//         margin-right: 0;
-//         display: block;
-//       }
-//       .cuadrito {
-//         display: flex;
-//         align-items: center;
-//       }
-//       .imagenn {
-//         max-width: 40%;
-//         padding: 10px 10px;
-//         height: auto;
-//       }
-//       .texto-derecha {
-//         padding: 0 25px;
-//         // max-width: 60%;
-//         h3 {
-//           text-align: end;
-//           font-weight: bolder;
-//           font-size: 20px;
-//         }
-//         .otro-texto {
-//           text-align: start;
-//         }
-//       }
-//       .texto-derecha-b {
-//         position: absolute;
-//         top: 0;
-//         right: 0;
-//         padding-left: 10px; /* Espacio entre la imagen y el texto (ajustable) */
-//         max-width: 60%; /* Ancho máximo que ocupará el texto (ajustable) */
-//         box-sizing: border-box; /* Incluye el padding en el ancho total */
-//         top: 50%; /* Coloca la parte superior del texto en el centro vertical */
-//         transform: translateY(-50%);
-//       }
-//       .timeline-nodes:nth-child(odd) .timeline-date {
-//         text-align: left;
-//       }
-
-//       .timeline-nodes:nth-child(even) .timeline-date {
-//         text-align: right;
-//       }
-//       .timeline-nodes:nth-child(odd) .timeline-content::after {
-//         content: "";
-//         position: absolute;
-//         top: 37%;
-//         left: 100%;
-//         width: 0;
-//         border-left: 15px solid #fab800;
-//         border-top: 15px solid transparent;
-//         border-bottom: 15px solid transparent;
-//       }
-//       .timeline-nodes:nth-child(even) .timeline-content::after {
-//         content: "";
-//         position: absolute;
-//         top: 37%;
-//         right: 100%;
-//         width: 0;
-//         border-right: 15px solid #fab800;
-//         border-top: 15px solid transparent;
-//         border-bottom: 15px solid transparent;
-//       }
-//       .timeline-image {
-//         position: relative;
-//         z-index: 100;
-//         width: 150px;
-//         height: 150px;
-//         margin-top: 30px;
-//       }
-
-//       .timeline-image img {
-//         position: relative;
-//         z-index: 100;
-//       }
-//       /*small device style*/
-
-//       @media (max-width: 1000px) {
-//         .timeline-nodes:nth-child(odd) h3,
-//         .timeline-nodes:nth-child(odd) p {
-//           text-align: left;
-//         }
-//         .timeline-nodes:nth-child(even) {
-//           flex-direction: row;
-//         }
-//         .timeline::before {
-//           content: "";
-//           display: block;
-//           position: absolute;
-//           top: 0;
-//           left: 0;
-//           width: 0;
-//           border-left: 8px solid white;
-//           height: 100%;
-//           z-index: 1;
-//           transform: translateX(-50%);
-//         }
-
-//         .timeline h3 {
-//           font-size: 1.7rem;
-//         }
-//         .timeline p {
-//           font-size: 14px;
-//         }
-//         .timeline-image {
-//           position: absolute;
-//           left: -10%;
-//           //top: 60px;
-//           /*transform: translateX(-50%;);*/
-//         }
-//         .timeline-nodes:nth-child(odd) .timeline-content::after {
-//           content: "";
-//           position: absolute;
-//           top: 45%;
-//           left: auto;
-//           right: 100%;
-//           width: 0;
-//           border-left: 0;
-//           border-right: 10px solid var(--blue);
-//           border-top: 10px solid transparent;
-//           border-bottom: 10px solid transparent;
-//         }
-//         .timeline-nodes:nth-child(even) .timeline-content::after {
-//           content: "";
-//           position: absolute;
-//           top: 45%;
-//           right: 100%;
-//           width: 0;
-//           border-right: 10px solid var(--blue);
-//           border-top: 10px solid transparent;
-//           border-bottom: 10px solid transparent;
-//         }
-//         .timeline-date {
-//           display: none;
-//         }
-//         .timeline-nodes:nth-child(even) .timeline-date {
-//           text-align: left;
-//         }
-//         .timeline-image::before {
-//           width: 65px;
-//           height: 65px;
-//         }
-//       }
-//       @media (max-width: 767px) {
-//         .timeline-nodes:nth-child(odd) h3,
-//         .timeline-nodes:nth-child(odd) p {
-//           text-align: left;
-//         }
-//         .timeline-nodes:nth-child(even) {
-//           flex-direction: row;
-//         }
-//         .timeline::before {
-//           content: "";
-//           display: block;
-//           position: absolute;
-//           top: 0;
-//           left: 0;
-//           width: 0;
-//           border-left: 8px solid white;
-//           height: 100%;
-//           z-index: 1;
-//           transform: translateX(-50%);
-//         }
-
-//         .timeline h3 {
-//           font-size: 1.7rem;
-//         }
-//         .timeline p {
-//           font-size: 14px;
-//         }
-//         .timeline-image {
-//           position: absolute;
-//           left: -9%;
-//           width: 120px;
-//           height: 120px;
-//           //top: 60px;
-//           /*transform: translateX(-50%;);*/
-//         }
-//         .timeline-nodes:nth-child(odd) .timeline-content::after {
-//           content: "";
-//           position: absolute;
-//           top: 45%;
-//           left: auto;
-//           right: 100%;
-//           width: 0;
-//           border-left: 0;
-//           border-right: 10px solid var(--blue);
-//           border-top: 10px solid transparent;
-//           border-bottom: 10px solid transparent;
-//         }
-//         .timeline-nodes:nth-child(even) .timeline-content::after {
-//           content: "";
-//           position: absolute;
-//           top: 45%;
-//           right: 100%;
-//           width: 0;
-//           border-right: 10px solid var(--blue);
-//           border-top: 10px solid transparent;
-//           border-bottom: 10px solid transparent;
-//         }
-//         .timeline-date {
-//           display: none;
-//         }
-//         .timeline-nodes:nth-child(even) .timeline-date {
-//           text-align: left;
-//         }
-//         .timeline-image::before {
-//           width: 65px;
-//           height: 65px;
-//         }
-//       }
-//       /*extra small device style */
-//       @media (max-width: 575px) {
-//         .timeline {
-//           padding: 1px;
-//         }
-//         .cuadrito {
-//           margin: 10px 0;
-//         }
-//         .timeline-image {
-//           display: none;
-//           position: absolute;
-//           left: -1%;
-//         }
-//         .timeline::before {
-//           display: none;
-//         }
-//         .timeline-nodes:nth-child(odd) .timeline-content::after {
-//           display: none;
-//         }
-//         .timeline-nodes:nth-child(even) .timeline-content::after {
-//           display: none;
-//         }
-//       }
-//     }
-//   }
-// }
 
 .section-tres__nosotros {
   padding: 50px 0 100px 0;
@@ -416,6 +107,37 @@
           }
           .historia__fecha {
             z-index: 2;
+          }
+        }
+      }
+      .section-tres__cuadro-info {
+        margin-top: 50px;
+        background-color: rgb(255, 255, 255);
+        .row {
+          .col {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // height: 200px;
+            .imagen {
+              align-items: center;
+              img {
+                width: 66px;
+                margin-right: 25px;
+              }
+            }
+            .text {
+              .texto-grande {
+                color: $primary;
+                font-weight: bold;
+                font-size: clamp(20px, 8vw, 40px);
+                margin-bottom: 0;
+              }
+              .texto-pequeño {
+                color: $colorParrafos;
+                font-size: 16px;
+              }
+            }
           }
         }
       }
