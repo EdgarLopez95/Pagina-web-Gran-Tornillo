@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- logo superior -->
+    <link rel="shorcut icon" href="../assets/icons/tiny-logo.svg" />
+    <!-- animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar fixed-top bg-white navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../assets/icons/mainLogo.svg"
+              alt="Logo"
+              width="150"
+              class="img-fluid"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- seccion uno -->
+      <section class="section-uno__contacto">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col section-uno__info">
+              <h2
+                class="text-secondary text-center"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
+                Contacto
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- seccion dos -->
+      <section class="section-dos__contacto">
+        <div class="container">
+          <div class="row section-dos__info mb-5">
+            <div class="col izquierda text-center">
+              <h3 data-aos="fade-up" data-aos-duration="2000">
+                Contacta con <br />
+                nosotros
+              </h3>
+              <div class="infor-contacto">
+                <p class="info-parrafo">
+                  <i
+                    class="bi-house-fill pe-2"
+                    style="font-size: 1.5rem; color: #20384a"
+                  ></i>
+                  <strong class="bold">Sede principal:</strong> Cra 5 # 24 - 45
+                  / San Nicolás , Cali
+                </p>
+                <p class="info-parrafo">
+                  <i
+                    class="bi-gear-fill pe-2"
+                    style="font-size: 1.5rem; color: #20384a"
+                  ></i>
+                  <strong class="bold">Taller de servicios:</strong> Cl. 36 #8a
+                  - 56
+                </p>
+                <p class="info-parrafo">
+                  <i
+                    class="bi-envelope-fill pe-2"
+                    style="font-size: 1.5rem; color: #20384a"
+                  ></i
+                  >servicioalcliente@grantornillo.com.co
+                </p>
+                <p class="info-parrafo">
+                  <i
+                    class="bi-telephone-fill pe-2"
+                    style="font-size: 1.5rem; color: #20384a"
+                  ></i
+                  >(60) (2) 882 3114
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md derecha mt-5 mt-md-0">
+              <form>
+                <div class="row form-group">
+                  <div class="col-6">
+                    <input
+                      type="text"
+                      class="form-control p-lg-3"
+                      placeholder="Nombre"
+                    />
+                  </div>
+                  <div class="col-6">
+                    <input
+                      type="email"
+                      class="form-control p-lg-3"
+                      placeholder="Correo"
+                    />
+                  </div>
+                  <div class="col-6 pt-4">
+                    <input
+                      type="tel"
+                      class="form-control p-lg-3"
+                      placeholder="Teléfono"
+                    />
+                  </div>
+                  <div class="col-6 pt-4">
+                    <input
+                      type="text"
+                      class="form-control p-lg-3"
+                      placeholder="Motivo"
+                    />
+                  </div>
+                  <div class="form-group pt-4">
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="4"
+                      placeholder="Mensaje"
+                    ></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-warning mt-4 p-lg-3">
+                  Enviar el mensaje
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer  -->
+    <footer class="footer bg-primary">
+      <div class="container">
+        <div
+          class="row g-0 py-5 mx-4 mx-md-0 section-footer__info justify-content-between"
+        >
+          <!-- izquierda  -->
+          <div class="col-12 col-md-3 mb-5 mb-md-0 section-footer__izquierda">
+            <a class="navbar-brand" href="../index.html "
+              ><img
+                src="../assets/icons/main-white-logo.svg"
+                alt="Logo"
+                width="200"
+                class="img-fluid logo__blanco"
+            /></a>
+            <div class="row">
+              <!-- redes sociales  -->
+              <div class="col pt-3">
+                <a
+                  href="https://www.facebook.com/IGTCOLOMBIA?mibextid=LQQJ4d&rdid=H90FT48sbPavQSgP"
+                  class="text-white"
+                  target="_blank"
+                >
+                  <i class="bi-facebook icono"></i
+                ></a>
+                <a
+                  href="https://wa.link/0z3ibx"
+                  class="text-white"
+                  target="_blank"
+                >
+                  <i class="bi-whatsapp icono"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/company/importadoraelgrantornillo/"
+                  class="text-white"
+                  target="_blank"
+                >
+                  <i class="bi-linkedin icono"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- terminan redes -->
+            <a href="../assets/documents/brochure.pdf" target="_blank"
+              ><button class="btn btn-light text-primary py-2 px-3 my-3">
+                Descargar brochure
+              </button></a
+            >
+            <div class="datos__politicas">
+              <a
+                href="../assets/documents/Politica-de-Garantia-y-Devoluciones.pdf"
+                target="_blank"
+                >Política de garantías</a
+              >
+            </div>
+          </div>
+          <!-- centro  -->
+          <div class="col-12 col-md-3 mb-5 mb-md-0 section-footer__centro flex">
+            <h2 class="text-white">Links</h2>
+            <div>
+              <a
+                target="_blank"
+                href="../index.html"
+                class="text-decoration-none"
+                ><i class="bi-house pe-2"></i> Inicio</a
+              >
+            </div>
+            <div>
+              <a
+                target="_blank"
+                href="../pages/nosotros.html"
+                class="text-decoration-none"
+                ><i class="bi-person pe-2"></i> Nosotros</a
+              >
+            </div>
+            <div>
+              <a
+                target="_blank"
+                href="../pages/productos.html"
+                class="text-decoration-none"
+                ><i class="bi-gear pe-2"></i> Productos</a
+              >
+            </div>
+            <div>
+              <a
+                target="_blank"
+                href="../pages/servicios.html"
+                class="text-decoration-none"
+                ><i class="bi-wrench-adjustable-circle pe-2"></i> Sevicios</a
+              >
+            </div>
+            <div>
+              <a
+                target="_blank"
+                href="../pages/contacto.html"
+                class="text-decoration-none"
+                ><i class="bi-envelope pe-2"></i> Contacto</a
+              >
+            </div>
+          </div>
+          <!-- derecha  -->
+          <div
+            class="col-12 col-md-3 mb-5 mb-md-0 section-footer__derecho flex"
+          >
+            <h2 class="text-white">Contacto</h2>
+            <div>
+              <a
+                target="_blank"
+                href="https://maps.app.goo.gl/FmbcawNcftiurP9D9"
+                class="text-decoration-none"
+                ><i class="bi-house-door pe-2"></i
+                ><strong class="bold">Sede principal:</strong> Cra 5 # 24 - 45 /
+                San Nicolás , Cali</a
+              >
+            </div>
+            <div>
+              <a
+                target="_blank"
+                href="https://maps.app.goo.gl/LycHKpTrqfnWNXC17"
+                class="text-decoration-none"
+                ><i class="bi-wrench-adjustable-circle pe-2"></i
+                ><strong class="bold">Taller de servicios:</strong> Cl. 36 #8a -
+                56</a
+              >
+            </div>
+            <div>
+              <a
+                target="_blank"
+                href="https://mail.google.com/"
+                class="text-decoration-none"
+                ><i class="bi-envelope-at pe-2"></i>servicioalcliente
+                @grantornillo.com.co</a
+              >
+            </div>
+            <div>
+              <a
+                target="_blank"
+                href="tel:(60) (2) 882 3114"
+                class="text-decoration-none"
+                ><i class="bi-telephone-forward pe-2"></i> (60) (2) 882 3114</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="datos">
+        <div>
+          <h3>2024 Importadora El Gran Tornillo S.A.S</h3>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

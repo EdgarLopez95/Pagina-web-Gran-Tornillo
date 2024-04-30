@@ -12400,6 +12400,89 @@ h4,
   text-align: center;
 }
 
+.section-uno__servicios {
+  margin-top: 80px;
+  background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/banner-servicio.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-uno__servicios .container .row {
+  height: 470px;
+}
+.section-uno__servicios .container .row .section-uno__info h2, .section-uno__servicios .container .row .section-uno__info .h2 {
+  font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+  font-weight: bold;
+}
+
+.section-dos__servicios {
+  padding: 50px 0 50px 0;
+}
+.section-dos__servicios .container .section-dos__info .info h3, .section-dos__servicios .container .section-dos__info .info .h3 {
+  font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.5rem);
+  font-weight: bold;
+  color: #22384b;
+  margin-bottom: 30px;
+}
+.section-dos__servicios .container .servicios__cards .servicios__card .card .card-body .card-title {
+  color: #22384b;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-hyphens: none;
+          hyphens: none;
+}
+.section-dos__servicios .container .servicios__cards .servicios__card .card .card-body .card-text {
+  text-align: center;
+  -webkit-hyphens: none;
+          hyphens: none;
+}
+
+.section-uno__contacto {
+  margin-top: 80px;
+  background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/banner-contacto.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-uno__contacto .container .row {
+  height: 470px;
+}
+.section-uno__contacto .container .row .section-uno__info h2, .section-uno__contacto .container .row .section-uno__info .h2 {
+  font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+  font-weight: bold;
+}
+
+.section-dos__contacto {
+  padding: 50px 0 50px 0;
+}
+.section-dos__contacto .container .section-dos__info .izquierda h3, .section-dos__contacto .container .section-dos__info .izquierda .h3 {
+  font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.5rem);
+  font-weight: bold;
+  color: #22384b;
+  margin-bottom: 30px;
+  text-align: start;
+}
+.section-dos__contacto .container .section-dos__info .izquierda .infor-contacto {
+  text-align: start;
+  font-size: 20px;
+}
+.section-dos__contacto .container .section-dos__info .derecha {
+  width: 100%;
+}
+.section-dos__contacto .container .section-dos__info .derecha .btn {
+  color: white;
+}
+.section-dos__contacto .container .section-dos__info .derecha .form-control {
+  background-color: #f6f4f0;
+}
+.section-dos__contacto .container .section-dos__info .derecha .form-control::-moz-placeholder {
+  color: #939393;
+}
+.section-dos__contacto .container .section-dos__info .derecha .form-control::placeholder {
+  color: #939393;
+}
+
 .historia {
   /*small device style*/
   /*extra small device style */

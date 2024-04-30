@@ -1,0 +1,54 @@
+.section-uno__servicios {
+  margin-top: 80px;
+  background-image: url(https://raw.githubusercontent.com/EdgarLopez95/Pagina-web-Gran-Tornillo/main/assets/images/banner-servicio.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .container {
+    .row {
+      height: 470px;
+      .section-uno__info {
+        h2 {
+          font-size: clamp(1.875rem, 1.21rem + 2.128vw, 3.125rem);
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.section-dos__servicios {
+  padding: 50px 0 50px 0;
+  .container {
+    .section-dos__info {
+      .info {
+        h3 {
+          font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.5rem);
+          font-weight: bold;
+          color: $primary;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .servicios__cards {
+      .servicios__card {
+        .card {
+          .card-body {
+            .card-title {
+              color: $primary;
+              font-size: 25px;
+              font-weight: bold;
+              text-align: center;
+              hyphens: none;
+            }
+            .card-text {
+              text-align: center;
+              hyphens: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
