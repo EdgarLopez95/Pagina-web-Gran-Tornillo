@@ -12080,14 +12080,14 @@ h4,
 .footer .container .section-footer__info .section-footer__derecho div a:hover {
   color: #fbba00;
 }
-.footer .datos .col {
+.footer .datos div {
   height: 50px;
   background-color: rgba(8, 8, 8, 0.3098039216);
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
 }
-.footer .datos .col h3, .footer .datos .col .h3 {
+.footer .datos div h3, .footer .datos div .h3 {
   font-size: 14px;
   text-align: center;
   color: white;
