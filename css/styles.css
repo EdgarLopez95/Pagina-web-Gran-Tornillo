@@ -12046,6 +12046,12 @@ h4,
   border: solid 1px #22384b;
   background-color: #fbba00;
 }
+.footer .container .section-footer__info .section-footer__izquierda .datos__politicas a {
+  color: white;
+}
+.footer .container .section-footer__info .section-footer__izquierda .datos__politicas a:hover {
+  color: #fbba00;
+}
 .footer .container .section-footer__info .section-footer__centro h2, .footer .container .section-footer__info .section-footer__centro .h2 {
   font-size: 25px;
   font-weight: 700;
@@ -12060,19 +12066,32 @@ h4,
 .footer .container .section-footer__info .section-footer__centro div a:hover {
   color: #fbba00;
 }
-.footer .container .section-footer__info .section-footer__izquierdo h2, .footer .container .section-footer__info .section-footer__izquierdo .h2 {
+.footer .container .section-footer__info .section-footer__derecho h2, .footer .container .section-footer__info .section-footer__derecho .h2 {
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 40px;
 }
-.footer .container .section-footer__info .section-footer__izquierdo div {
+.footer .container .section-footer__info .section-footer__derecho div {
   padding-bottom: 10px;
 }
-.footer .container .section-footer__info .section-footer__izquierdo div a {
+.footer .container .section-footer__info .section-footer__derecho div a {
   color: white;
 }
-.footer .container .section-footer__info .section-footer__izquierdo div a:hover {
+.footer .container .section-footer__info .section-footer__derecho div a:hover {
   color: #fbba00;
+}
+.footer .datos .col {
+  height: 50px;
+  background-color: rgba(8, 8, 8, 0.3098039216);
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+.footer .datos .col h3, .footer .datos .col .h3 {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  margin: 0;
 }
 
 .main .section-uno__inicio {

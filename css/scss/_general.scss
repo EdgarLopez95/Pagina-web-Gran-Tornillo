@@ -83,6 +83,14 @@ h4 {
             background-color: $secondary;
           }
         }
+        .datos__politicas{
+          a{
+            color: white;
+            &:hover {
+              color: $secondary;
+            }
+          }
+        }
       }
       .section-footer__centro {
         h2 {
@@ -101,7 +109,7 @@ h4 {
           }
         }
       }
-      .section-footer__izquierdo {
+      .section-footer__derecho {
         h2 {
           font-size: 25px;
           font-weight: 700;
@@ -117,6 +125,21 @@ h4 {
             }
           }
         }
+      }
+    }
+  }
+  .datos {
+    .col {
+      height: 50px;
+      background-color: #0808084f;
+      display: flex;
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center; /* Centra verticalmente */
+      h3 {
+        font-size: 14px;
+        text-align: center;
+        color: white;
+        margin: 0;
       }
     }
   }
