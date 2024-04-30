@@ -12483,6 +12483,24 @@ h4,
   color: #939393;
 }
 
+.section-tres__contacto {
+  padding: 50px 0 50px 0;
+}
+.section-tres__contacto h3, .section-tres__contacto .h3 {
+  font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.5rem);
+  font-weight: bold;
+  color: #22384b;
+  margin-bottom: 30px;
+}
+.section-tres__contacto .container button {
+  color: #22384b;
+  font-weight: bolder;
+}
+.section-tres__contacto .container .link-acordion {
+  display: inline;
+  text-decoration-line: underline;
+}
+
 .historia {
   /*small device style*/
   /*extra small device style */

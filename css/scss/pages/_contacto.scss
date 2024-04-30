@@ -22,34 +22,52 @@
   padding: 50px 0 50px 0;
   .container {
     .section-dos__info {
-       
       .izquierda {
         h3 {
-            font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.5rem);
-            font-weight: bold;
-            color: $primary;
-            margin-bottom: 30px;
-            text-align: start;
-          }
-          .infor-contacto{
-            text-align: start;
-            font-size: 20px;
-          }
+          font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.5rem);
+          font-weight: bold;
+          color: $primary;
+          margin-bottom: 30px;
+          text-align: start;
+        }
+        .infor-contacto {
+          text-align: start;
+          font-size: 20px;
+        }
       }
       .derecha {
         width: 100%;
-        .btn{
+        .btn {
           color: white;
         }
-        .form-control{
+        .form-control {
           background-color: #f6f4f0;
           &::placeholder {
             color: #939393;
           }
-          
         }
-        
       }
+    }
+  }
+}
+
+.section-tres__contacto {
+  padding: 50px 0 50px 0;
+  h3 {
+    font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.5rem);
+    font-weight: bold;
+    color: $primary;
+    margin-bottom: 30px;
+    // text-align: start;
+  }
+  .container {
+    button {
+      color: $primary;
+      font-weight: bolder;
+    }
+    .link-acordion {
+      display: inline;
+      text-decoration-line: underline;
     }
   }
 }
